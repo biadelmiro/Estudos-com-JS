@@ -2,7 +2,7 @@ function fn(){
     return 'Code Here';
 }
 
-const arrowFn = () => 'Code here'; //se for apenas uma expressão
+const arrowFn = () => 'Code here'; //se for apenas UMA EXPRESSÃO (ela retorna uma mensagem sem o "return")
 const arrowFn2 = () => {
     //mais de uma expressão
     return 'Code here';

@@ -3,7 +3,7 @@ var topo      = -1;
 const MAX     = 10;
 
 //adiciona elementos
-
+//o ultimo elemento que entra, é o que sai.
 function push(num){ //faça o empilhamento dos valores! 
     if(topo < MAX){ //verificar se a pilha já atingiu a capacidade
         topo = topo + 1 ;
